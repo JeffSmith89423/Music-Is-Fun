@@ -1,0 +1,67 @@
+
+
+header{
+    background-color: silver;
+    height: 100%;
+    
+}
+.header-background{
+    background-image: url("/assets/images/the-music-store.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    height: 20em;
+    
+}
+
+ .search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+/* footer{
+    background-color: silver;
+    height: 5em;
+} */
+
+.center{
+    text-align: center;
+}
+.outline{
+    outline: white solid 2px;
+    margin: 10px;
+    color: white;
+    /* background-color: darkgray; */
+    padding: 1em;
+}
+body{
+    background-image: url("/assets/images/creased-black-paper-texture.jpg");
+    /* background-size: cover; */
+    background-repeat: repeat;
+    background-position: center center;
+    
+}
+
+
+.preview-bar{
+    width:100%;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+    
+}
+
+.align-items{
+    align-content: center;
+}
+.search-bar{
+    height: 10em;
+}
+.height-adjust{
+    height: 100%;
+}

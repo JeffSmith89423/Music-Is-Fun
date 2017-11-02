@@ -1,6 +1,6 @@
-## Welcome to the new and Improved Itunes!
+<!-- ## Welcome to the new and Improved Itunes!
 
-Okay well maybe its not quite there yet, that's where you come in.
+Okay well maybe its not quite there yet, that's where you come in. -->
 
 ### The Setup
 

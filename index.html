@@ -5,26 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Music Is Fun!</title>
+    <title>The Best Music App Ever!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/index.css">
 
 </head>
 
-<body>
-    <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
-        <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-        <div class="form-group">
-            <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
-            <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
-        </div>
-    </form>
-    <div id="songs">
 
-    </div>
+<body>
+    <header>
+        <div class="container-fluid header-background">
+            <div class="row height-adjust">
+                <div class="col-sm-12  search-bar height-adjust">
+                    <form class="form-inline center search-bar" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                        <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+                            <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <ul class="container-fluid" id="song-list">
+
+        <!--SONGS ADDED DYNAMICALLY HERE-->
+
+
+    </ul>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- EXTERNAL LIBRARIES -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <!-- SERVICES -->
     <script src="itunes-service.js"></script>
+    <!-- controller -->
     <script src="itunes-controller.js"></script>
+    <!-- services -->
     <script src="app.js"></script>
 </body>
+
 
 </html>
