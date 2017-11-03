@@ -6,7 +6,7 @@ header{
     
 }
 .header-background{
-    background-image: url("/images/the-music-store.jpg");
+    background-image: url("/assets/images/the-music-store.jpg");
     background-size: cover;
     background-repeat: repeat;
     background-position: center center;
@@ -36,10 +36,11 @@ header{
     padding: 1em;
 }
 body{
-    background-image: url("/images/creased-black-paper-texture.jpg");
+    background-image: url("/assets/images/creased-black-paper-texture.jpg");
     /* background-size: cover; */
     background-repeat: repeat;
     background-position: center center;
+    background-color:black;
     
 }
 
